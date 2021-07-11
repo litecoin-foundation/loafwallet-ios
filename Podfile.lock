@@ -82,8 +82,8 @@ PODS:
     - EthereumAddress (~> 1.3)
 
 DEPENDENCIES:
-  - Firebase/Analytics (~> 6.0)
-  - Firebase/Crashlytics (~> 6.0)
+  - Firebase/Analytics
+  - Firebase/Crashlytics
   - KeychainAccess (~> 4.2)
   - UnstoppableDomainsResolution (~> 0.3.6)
 
@@ -124,6 +124,6 @@ SPEC CHECKSUMS:
   PromisesObjC: 3113f7f76903778cf4a0586bd1ab89329a0b7b97
   UnstoppableDomainsResolution: 1724f30c0dfa4ba672e4b74242e9fc0df240e3a6
 
-PODFILE CHECKSUM: 8612c7796f376d9bcdd4b6b747670aacce352e78
+PODFILE CHECKSUM: 82e7dcdf6c90affbcb4bb592eaf9122a3fcbcda7
 
 COCOAPODS: 1.10.1

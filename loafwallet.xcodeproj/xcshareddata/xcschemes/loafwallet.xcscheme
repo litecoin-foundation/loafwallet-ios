@@ -28,7 +28,6 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES"
       enableASanStackUseAfterReturn = "YES"
-      codeCoverageEnabled = "YES"
       localizableStringsDataGatheringEnabled = "YES">
       <AdditionalOptions>
          <AdditionalOption
