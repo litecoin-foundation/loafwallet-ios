@@ -170,7 +170,8 @@ struct C {
     static let maxMemoLength = 250
     static let feedbackEmail = "feedback@litecoinfoundation.zendesk.com"
     static let supportEmail = "support@litecoinfoundation.zendesk.com"
-    
+    /// URL for LiteWallet support desk
+    static let litewalletSupportURL = "https://litewallet.io"
     
     static let reviewLink = "https://itunes.apple.com/app/loafwallet-litecoin-wallet/id1119332592?action=write-review"
     static var standardPort: Int {

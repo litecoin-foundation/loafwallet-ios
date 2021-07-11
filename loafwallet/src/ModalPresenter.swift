@@ -391,9 +391,7 @@ class ModalPresenter : Subscriber, Trackable {
         menu.didTapSupport = { [weak self, weak menu] in
             menu?.dismiss(animated: true, completion: {
                 
-                let urlString = "https://litecoinfoundation.zendesk.com/hc/en-us"
-                
-                guard let url = URL(string: urlString) else { return }
+                guard let url = URL(string: C.litewalletSupportURL) else { return }
                 
                 let vc = SFSafariViewController(url: url)
                 self?.topViewController?.present(vc, animated: true, completion: nil)
